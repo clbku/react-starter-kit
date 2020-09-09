@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "types": ["react"],
+    "lib": ["dom", "dom.iterable", "esnext", "WebWorker"],
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./build",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ES5",
+    "esModuleInterop": true,
+    "allowJs": false
+  },
+  "include": ["./src"]
+}
